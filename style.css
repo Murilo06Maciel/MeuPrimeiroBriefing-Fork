@@ -1,40 +1,90 @@
-.carousel-item img {
-    width: 100%;
-    height: auto; 
-    max-height: 100vh; 
-    object-fit: contain;
-    margin: 0 auto;
+header {
+    background-color: black;
+    color: beige;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navbar {
-    font-size: 1rem;
-    background-color: black;
+    background-color: black; 
 }
-.navbar .navbar-brand {
+
+.navbar .nav-link {
+    color: white !important; 
+}
+
+.navbar .nav-link:hover {
     color: white !important;
 }
-.nav-link {
-    font-size: 1rem;
-    color: white !important;
-}
-h1 {
-    font-size: 1.5rem;
-}
+
 body {
-    background-color: rgb(167, 165, 163);
+    background-color: rgb(165, 8, 8);
     height: 100vh;
     margin: 0;
 }
-h1, h2, h3, p {
+
+main {
+    background-color: transparent;
     color: black;
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.dropdown-menu {
-    background-color: white; 
-    border: 1px solid black; 
+
+p {
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-align: start;
 }
-.dropdown-menu .dropdown-item {
-    color: black; 
+
+form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; 
 }
-.dropdown-menu .dropdown-item:hover {
+
+label, input, select, textarea, button, fieldset {
+    display: block; 
+    width: 100%; 
+    margin-bottom: 15px; 
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block; 
+    width: auto;
+    margin-right: 10px; 
+}
+
+fieldset {
+    border: 1px solid beige; 
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+button {
+    width: auto; 
+    padding: 10px 20px;
+    background-color: gray;
     color: white; 
-    background-color: black; 
+    border: none; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: gray; 
+}
+
+footer {
+    background-color: gray;
+    color: beige;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
