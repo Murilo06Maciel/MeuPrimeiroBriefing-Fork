@@ -1,9 +1,10 @@
-## Logo
-c:\Users\Aluno\Downloads\BRIEFING.png
-![alt text](BRIEFING-1.png)
-Proposta do site: site para vender cursos de libras
-Cliente(s): Sandyla e Vitória
-Desenvolvedor(es): Murilo e Pietro
+
+# Proposta do site: 
+site para vender cursos de libras
+# Cliente(s): 
+Sandyla e Vitória
+# Desenvolvedor(es): 
+Murilo e Pietro
 
 ## Recursos utilizados
 - HTML
