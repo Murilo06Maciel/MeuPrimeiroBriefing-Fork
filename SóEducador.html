@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Libras - Página Principal</title>
+    <title>San Libras - Curso grátis</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -29,7 +29,22 @@
         h1, h2, h3, p {
             color: black;
         }
-
+        .div-video {
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            height: 500px; 
+        }
+        .btn-center {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        #dov{
+    display: flex;
+    justify-content: center;
+}
     </style>
 </head>
 <body>
@@ -46,14 +61,14 @@
                         <a class="nav-link custom-nav-link" href="index.html">San Libras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-nav-link" href="Quem somos.html">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link custom-nav-link" href="Inserir Cursos.html">Inserir Cursos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link custom-nav-link" href="C_Pagos.html">Cursos Pagos</a>
-                    </li>
+                    <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos Pagos</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Anhaguera.html">Anhaguera</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="Líbano.html">Faculdade Líbano</a></li>
+                    </ul>
                     <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos Grátis</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="Carlos Cristian Libras.html">Carlos Cristian Libras</a></li>
@@ -74,26 +89,33 @@
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
-        <div class="container">
-            <div class="col-md-4 mb-4 g-5">
-                <div class="card">
-                    <img src="img/transferir.png" class="card-img-top" alt="curso grátis">
-                    <div class="card-body">
-                        <h5 class="card-title">SóEducador</h5>
-                        <p class="card-text">A SóEducador é uma plataforma online de formação continuada para educadores, que oferece cursos e certificações.</p>
-                        <a href="https://www.soeducador.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=pareto.ac.gsn.brand.br&gad_source=1&gclid=Cj0KCQiA57G5BhDUARIsACgCYnwyaf6F8RknDV1jq15d3O2tR95MmdqHIaHvzVL14dsQBaX-uwZ9bngaAvfDEALw_wcB"  target="_blank" class="btn btn-info mt-2">Ver Detalhes</a>
-                    </div>
-                </div>
-            </div>
+    </script>
+    <br>
+    <div class="container">
+        <div id="dov">
+        <img src="img/transferir.png">
         </div>
-      </div>
+        <br>
+        <h2> O SóEducador é uma plataforma online de formação continuada para educadores, que oferece cursos e certificações:</h2>
+        <br> 
+            <h1>Os cursos são especializados em diversas áreas da educação, do ensino infantil ao médio.</h1> 
+             
+            <h1>Os cursos são livres, de atualização, aperfeiçoamento e qualificação profissional.</h1> 
+             
+            <h1>Os certificados são válidos em todo o território nacional e estão embasados nas leis vigentes do país.</h1> 
+             
+            <h1>Os certificados podem ser emitidos em formato digital ou físico, com a mesma validade.</h1> 
+        <br> 
+            <h1>A SóEducador é uma marca da empresa INCI Brasil e está amparada pelo Decreto Presidencial n.º 5.154. </h1> 
+        <div class="btn-center">
+            <a href="https://www.soeducador.com.br/" target="_blank" class="btn btn-info">Acessar site</a>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
