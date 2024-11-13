@@ -1,95 +1,59 @@
-header {
-    background-color: black;
-    color: beige;
-    text-align: center;
-    font-size: 20pt;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.carousel-item img {
+    width: 100%;
+    height: auto; 
+    max-height: 100vh; 
+    object-fit: contain;
+    margin: 0 auto;
 }
 .navbar {
-    background-color: black; 
+    font-size: 1rem;
+    background-color: black;
 }
-
-.navbar .nav-link {
-    color: white !important; 
-}
-
-.navbar .nav-link:hover {
+.navbar .navbar-brand {
     color: white !important;
 }
-
+.nav-link {
+    font-size: 1rem;
+    color: white !important;
+}
+h1 {
+    font-size: 1.5rem;
+}
 body {
-    background-color: rgb(165, 8, 8);
+    background-color: rgb(167, 165, 163) !important;
     height: 100vh;
     margin: 0;
 }
-
-main {
-    background-color: transparent;
+h1, h2, h3, p {
     color: black;
-    text-align: center;
-    font-size: 40pt;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-p {
-    width: 90%;
-    text-align: center;
-    font-size: 1.5rem;
-    text-align: start;
+.dropdown-menu {
+    background-color: white; 
+    border: 1px solid black; 
 }
-
-form {
-    display: flex;
-    flex-direction: column; 
-    gap: 10px; 
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto; 
+.dropdown-menu .dropdown-item {
+    color: black;
 }
-
-label, input, select, textarea, button, fieldset {
-    display: block; 
-    width: 100%; 
-    margin-bottom: 15px; 
-}
-
-input[type="radio"], input[type="checkbox"] {
-    display: inline-block; 
-    width: auto;
-    margin-right: 10px; 
-}
-
-fieldset {
-    border: 1px solid beige; 
-    padding: 10px;
-}
-
-legend {
-    font-weight: bold;
-}
-
-button {
-    width: auto; 
-    padding: 10px 20px;
-    background-color: gray;
+.dropdown-menu .dropdown-item:hover {
     color: white; 
-    border: none; 
-    cursor: pointer; 
+    background-color: black; 
 }
-
-button:hover {
-    background-color: gray; 
+.container p {
+    font-size: 25px; 
 }
-
-#dov {
+.div-video {
+    text-align: center;
+}
+iframe {            
+width: 100%;
+height: 500px; 
+}
+.btn-center {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
-
-footer {
-    background-color: gray;
-    color: beige;
-    text-align: center;
-    font-size: 20pt;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#dov{
+display: flex;
+justify-content: center;
 }

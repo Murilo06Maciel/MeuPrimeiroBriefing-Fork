@@ -16,6 +16,6 @@ Murilo e Pietro
 - [X] inserir informações
 
 ## Backlog
-- [] inserir novos cursos
-- [] inserir novos vídeos
-- [] inserir mais informações
+- inserir novos cursos
+- inserir novos vídeos
+- inserir mais informações
