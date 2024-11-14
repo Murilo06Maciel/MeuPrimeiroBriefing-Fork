@@ -7,7 +7,7 @@
 }
 .navbar {
     font-size: 1rem;
-    background-color: black;
+    background-color: black !important;
 }
 .navbar .navbar-brand {
     color: white !important;
@@ -20,7 +20,7 @@ h1 {
     font-size: 1.5rem;
 }
 body {
-    background-color: rgb(167, 165, 163) !important;
+    background-color: rgba(167, 167, 167, 0.719) !important;
     height: 100vh;
     margin: 0;
 }

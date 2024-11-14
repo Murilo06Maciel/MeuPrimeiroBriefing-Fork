@@ -164,26 +164,6 @@
         }
     })
 </script>
-<script>
-    let campoTelefone = document.querySelector(".celular");
-
-    campoTelefone.addEventListener("input", (e) => {
-        let telefone = campoTelefone.value.replace(/\D/g, '');
-        let formatoTelefone = '';
-
-        if (telefone.length > 0) {
-            formatoTelefone += '(' + telefone.substring(0, 2) + ') '; 
-        }
-        if (telefone.length > 2) {
-            formatoTelefone += telefone.substring(2, 7); 
-        }
-        if (telefone.length > 7) {
-            formatoTelefone += '-' + telefone.substring(7, 11); 
-        }
-
-        campoTelefone.value = formatoTelefone;
-    });
-</script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
